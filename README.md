@@ -1,8 +1,8 @@
-# 🧠 Yu Stack — Dual AI Agent Collaboration Terminal
+# 🧠 Yu Stack — 双AI智能体协作终端
 
 > 一个终端，两个AI大脑，187种专业技能。
 
-**Yu Stack** 是一个开源的 **双AI智能体协作系统**。它将两个顶级AI编码代理（Hermes + Claude Code）整合到一个tmux分屏终端中，并预装了 **187种专业角色和工作流**，让一个人拥有整个工程团队的战斗力。
+**Yu Stack** 是一个开源的 **双AI智能体协作系统**。它将两个顶级AI编码代理（Hermes + Claude Code）整合到一个终端分屏中，并预装了 **187种专业角色和工作流程**，让一个人拥有整个工程团队的战斗力。
 
 ---
 
@@ -15,24 +15,24 @@
 │  🧠 Hermes             │  🤖 Claude Code             │
 │  分析 · 规划 · 学习    │  编码 · 实现 · 执行         │
 │                        │                             │
-│  Skills:               │  Roles:                     │
-│  ├─ gstack 43 workflows│  ├─ Agency 144 experts      │
-│  │  ├─ /review         │  │  ├─ Frontend Dev         │
-│  │  ├─ /investigate    │  │  ├─ Backend Architect    │
-│  │  ├─ /qa             │  │  ├─ Security Engineer    │
-│  │  ├─ /cso            │  │  ├─ UI/UX Designer       │
-│  │  ├─ /ship           │  │  ├─ DevOps Engineer      │
-│  │  └─ 38 more         │  │  └─ 139 more roles       │
-│  └─ Auto-integration   │  └─ Team orchestration      │
+│  技能库:               │  角色库:                    │
+│  ├─ gstack 43个工作流  │  ├─ The Agency 144个专家    │
+│  │  ├─ /review 代码审查│  │  ├─ 前端开发专家         │
+│  │  ├─ /investigate 调试│  │  ├─ 后端架构师          │
+│  │  ├─ /qa 质量测试    │  │  ├─ 安全工程师           │
+│  │  ├─ /cso 安全审计   │  │  ├─ UI/UX设计师          │
+│  │  ├─ /ship 发版部署  │  │  ├─ 运维工程师           │
+│  │  └─ 还有38个        │  │  └─ 还有139个专家角色     │
+│  └─ 自动学习进化       │  └─ 团队编排               │
 └────────────────────────┴─────────────────────────────┘
          │                        │
          └────────┬───────────────┘
                   │
        ┌──────────▼──────────┐
        │  ~/.yu-stack/        │
-       │  ├─ task.md          │ ← 任务同步
+       │  ├─ task.md          │ ← 任务同步文件
        │  ├─ current_task.txt │
-       │  └─ ...              │
+       │  └─ 其他工作区文件   │
        └──────────────────────┘
                   │
        ┌──────────▼──────────┐
@@ -47,7 +47,7 @@
 ### 安装
 
 ```bash
-git clone https://github.com/[your-username]/yu-stack.git
+git clone https://github.com/yujinju666/yu-stack.git
 cd yu-stack
 chmod +x setup.sh
 ./setup.sh
@@ -84,34 +84,34 @@ yu --help
 
 | 部门 | 角色数 | 代表角色 |
 |------|--------|---------|
-| 🔧 工程 | 24 | Frontend Dev, Backend Architect, Full Stack, AI/ML, DevOps, Security, DB, Cloud |
-| 🎨 设计 | 9 | UI Designer, UX Researcher, Brand Guardian, Visual Storyteller |
-| 📢 营销 | 30+ | Content Strategist, SEO, Copywriter, 小红书/TikTok/Reddit专家 |
-| 💰 销售 | 8 | Outreach, Discovery, Deal Strat, Sales Engineer, Negotiation |
-| 💳 广告 | 8 | PPC, Paid Social, Retargeting, Attribution |
-| 📦 产品 | 12 | PM, PO, Feature Prioritizer, Roadmap Architect |
-| 📊 项目管理 | 10 | Agile Coach, Scrum Master, Risk Manager |
-| 🧪 QA | 8 | Test Automation, Performance, Security, Bug Hunter |
-| 🎮 游戏 | 10 | Game Designer, Unity/Unreal Developer |
-| 🎓 学术 | 8 | Research Analyst, Data Scientist, Thesis Advisor |
-| 💼 专业服务 | 10 | Business Consultant, Legal Advisor, Financial Analyst |
-| 🛠️ 支持 | 7 | Support Engineer, Customer Success, Training |
+| 🔧 工程 | 24 | 前端开发、后端架构、全栈、AI/机器学习、运维、安全、数据库、云计算 |
+| 🎨 设计 | 9 | 界面设计、用户体验研究、品牌守护、视觉叙事 |
+| 📢 营销 | 30+ | 内容策略、搜索引擎优化、文案、小红书/抖音/Reddit运营 |
+| 💰 销售 | 8 | 外展策略、需求挖掘、交易策略、售前工程、谈判 |
+| 💳 广告 | 8 | 点击付费策略、付费社交、再营销、归因分析 |
+| 📦 产品 | 12 | 产品经理、产品负责人、功能优先级、路线图架构 |
+| 📊 项目管理 | 10 | 敏捷教练、Scrum主管、风险管理 |
+| 🧪 质量测试 | 8 | 自动化测试、性能测试、安全测试、Bug猎手 |
+| 🎮 游戏开发 | 10 | 游戏设计、Unity/虚幻引擎开发 |
+| 🎓 学术 | 8 | 研究分析、数据科学、论文指导 |
+| 💼 专业服务 | 10 | 商业顾问、法律顾问、财务分析 |
+| 🛠️ 客户支持 | 7 | 技术支持、客户成功、培训协调 |
 
 ### 来自 gstack（43种开发工作流）
 
 | 工作流 | 用途 |
 |--------|------|
-| `/plan-ceo-review` | CEO级战略审核——找10星产品 |
+| `/plan-ceo-review` | CEO级战略审核——找到10星产品 |
 | `/plan-eng-review` | 架构锁定——数据流、边界情况、测试策略 |
-| `/plan-design-review` | 设计评审——维度评分0-10 |
+| `/plan-design-review` | 设计评审——各维度评分0-10 |
 | `/office-hours` | 产品创意重构——写代码前想清楚 |
-| `/autoplan` | 全自动规划——一次跑全部评审 |
-| `/investigate` | 系统性调试——**没有根因不修** |
-| `/review` | 代码审查——SQL安全、LLM边界、副作用 |
-| `/qa` | 浏览器端QA——三层测试+修复+验证 |
-| `/qa-only` | QA报告——只找bug不改代码 |
-| `/cso` | 安全审计——OWASP Top 10 + STRIDE |
-| `/ship` | 完整发版——合并→测试→审查→版本→CHANGELOG→PR |
+| `/autoplan` | 全自动规划——一次性跑完所有评审 |
+| `/investigate` | 系统性调试——**找不到根因绝不修复** |
+| `/review` | 代码审查——SQL安全、大模型信任边界、副作用 |
+| `/qa` | 浏览器端质量测试——三层测试+修复+验证 |
+| `/qa-only` | 质量测试报告——只找bug不改代码 |
+| `/cso` | 安全审计——OWASP十大风险 + STRIDE威胁建模 |
+| `/ship` | 完整发版——合并→测试→审查→版本号→更新日志→拉取请求 |
 | `/land-and-deploy` | 合并+部署+验证一体化 |
 | `/canary` | 上线后监控 |
 | `/design-consultation` | 从零搭建设计系统 |
@@ -133,24 +133,24 @@ yu --help
 
 ## 设计哲学
 
-### Boil the Lake（煮沸湖泊）
+### 煮沸湖泊
 
 AI编码让完整实现的边际成本趋近于零。当完整版只多花几分钟时——永远选完整版，不抄捷径。
 
 ```
-坏模式: "先发90%，剩下的下个PR补"
+坏模式: "先发90%，剩下的下个更新补"
 好模式: "多花30秒做100%，一次到位"
 ```
 
-### Search Before Building（先查后建）
+### 先查后建
 
 1000倍工程师的第一反应不是"我来设计"，而是"有没有人已经解决了这个"。
 
 ### 三层知识
 
-1. **Layer 1** — 公认实践，经过战斗验证
-2. **Layer 2** — 新趋势（批判性看待，市场有时狂热）
-3. **Layer 3** — **第一性原理原创（最有价值）**
+1. **第一层** — 公认实践，经过千锤百炼的解决方案
+2. **第二层** — 新趋势（批判性看待，市场有时会狂热）
+3. **第三层** — **第一性原理原创（最有价值）**
 
 ---
 
@@ -163,7 +163,7 @@ yu-stack/
 │   └── yu               # 协作终端启动器
 ├── .workspace/          # 工作区模板
 ├── README.md            # 本文档
-├── AGENTS.md            # Agent系统参考
+├── AGENTS.md            # 智能体系统参考
 └── ETHOS.md             # 设计哲学
 ```
 
@@ -178,18 +178,18 @@ yu-stack/
 | [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | 右屏：编码、实现、执行 |
 | [Agency Agents](https://github.com/MarcusRawlins/agency-agents) | 144种专家角色（Claude Code侧） |
 | [gstack](https://github.com/garrytan/gstack) | 43种开发工作流（Hermes侧） |
-| [Bun](https://bun.sh) | gstack浏览器后端运行时 |
+| [Bun](https://bun.sh) | gstack浏览器后端运行环境 |
 
 ---
 
 ## 灵感来源
 
 - **[gstack](https://github.com/garrytan/gstack)** by Garry Tan (YC CEO) — AI工程工作流系统
-- **[The Agency](https://github.com/MarcusRawlins/agency-agents)** by Marcus Rawlins — 144专家代理系统
-- **YJJ** — tmux双AI协作终端的原始设计
+- **[The Agency](https://github.com/MarcusRawlins/agency-agents)** by Marcus Rawlins — 144专家智能体系统
+- **YJJ** — 终端双AI协作的原始设计
 
 ---
 
-## License
+## 许可证
 
 MIT — 自由使用、修改、分享。
